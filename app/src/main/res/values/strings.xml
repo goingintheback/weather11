@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Прогноз погоды!</string>
+    <string name="string_first">Лучшее приложение\n о погоде!</string>
+    <string name="string_loading">Загрузка...</string>
+    <string name="city_msk">Москва</string>
+    <string name="city_bsk">Борисоглебск</string>
+    <string name="city_vrn">Воронеж</string>
+    <string name="city_vgg">Волгоград</string>
+    <string name="city_tmb">Тамбов</string>
+    <string name="city_srt">Саратов</string>
+
+
+    <string name="b1"><u>"Утром                  12°C"</u></string>
+    <string name="b2"><u>"Днем                   21°C"</u></string>
+    <string name="b3"><u>"Ночью                  11°C"</u></string>
+
+    <string name="m1"><u>"Утром                  7°C"</u></string>
+    <string name="m2"><u>"Днем                   15°C"</u></string>
+    <string name="m3"><u>"Ночью                  8°C"</u></string>
+
+    <string name="vn1"><u>"Утром                  14°C"</u></string>
+    <string name="vn2"><u>"Днем                   21°C"</u></string>
+    <string name="vn3"><u>"Ночью                  15°C"</u></string>
+
+    <string name="sr1"><u>"Утром                  17°C"</u></string>
+    <string name="sr2"><u>"Днем                   27°C"</u></string>
+    <string name="sr3"><u>"Ночью                  18°C"</u></string>
+
+    <string name="vlg1"><u>"Утром                  10°C"</u></string>
+    <string name="vlg2"><u>"Днем                   17°C"</u></string>
+    <string name="vlg3"><u>"Ночью                  11°C"</u></string>
+
+    <string name="tm1"><u>"Утром                  9°C"</u></string>
+    <string name="tm2"><u>"Днем                   16°C"</u></string>
+    <string name="tm3"><u>"Ночью                  10°C"</u></string>
+</resources>

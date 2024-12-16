@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/design_default_color_error" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="694dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/textView3"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Выберите город"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/bsk"
+            android:onClick="onClickBsk"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bsk" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/textView434"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="@string/city_bsk"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView3435"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/black" />
+
+        <LinearLayout
+            android:onClick="onClickMsk"
+            android:id="@+id/msk"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/imageView4343"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/msk" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/textView4434"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="Москва"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView4345"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/black" />
+
+
+        <LinearLayout
+            android:onClick="onClickVn"
+            android:id="@+id/vrn"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/imageView34345"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/voronesh" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/textView434534"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="@string/city_vrn"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView5543543"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/sar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:onClick="onClickSar"
+
+            >
+
+            <ImageView
+                android:id="@+id/imageView324293"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/saratov" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/textView408"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="@string/city_srt"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView598089"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/vlg"
+            android:onClick="onClickVlg"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/imageView908903"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/volgograd" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:text="@string/city_vgg"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView508490"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/tmb"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:onClick="onClickTmb"
+
+            >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tambov" />
+
+            <TextView
+                android:id="@+id/textView40890"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:text="@string/city_tmb"
+                android:textSize="28dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView50890"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/black" />
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
